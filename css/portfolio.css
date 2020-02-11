@@ -392,6 +392,7 @@ a {
     bottom: 30px;
     right: 30px;
     font-size: 35px;
+    z-index: 500;
 }
 
 /* 버튼 up End */

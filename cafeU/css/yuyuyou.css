@@ -1,0 +1,351 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: "맑은 고딕";
+    list-style: none;
+}
+
+#wrap {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+#header-img {   
+    padding-top: 20px;
+    width: 200px;
+    margin-left: 520px;
+    float: left;    
+}
+
+.logo {
+    margin-left: 20px;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+#menu-top {
+    box-sizing: border-box;
+    float: right;   
+    padding-top: 30px; 
+    padding-left: 30px;
+    width: 400px;
+}
+
+#menu-top ul li {
+    float: left;   
+}
+
+#menu-top ul li a {
+    font-size: 14px;
+    color: #666;
+    border-right: 1px solid #666;  
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+#sns {  
+    float: right;    
+}
+
+#sns ul li {
+    float: left;   
+}
+
+#sns ul li a {
+    font-size: 30px;
+    color: black; 
+    padding-right: 10px;
+    padding-left: 10px;   
+}
+
+#menu-bot {
+    height: 50px;
+    clear: both;
+    margin-bottom: 20px; 
+}
+
+#menu-bot ul li {
+    
+    float: left;  
+    margin-left: 15px;
+}
+
+#menu-bot ul li a {    
+    display: block; 
+    font-size: 30px;
+    color: #666; 
+    padding-right: 60px;
+    padding-left: 60px; 
+    font-family: 'Baloo Bhai', cursive;  
+}
+
+#menu-bot ul li a:hover {
+    color: deeppink;    
+}
+
+#main-img {    
+    position: relative;
+}
+
+#main-img img {    
+    border-radius: 25px;        
+}
+
+#main-img p {
+    font-family: 'Baloo Bhai', cursive; 
+    font-size: 50px;
+    color: deeppink;
+    position: absolute;
+    top: 70px;
+    right: 90px;
+}
+
+#main-img span {
+    font-family: 'Baloo Bhai', cursive; 
+    font-size: 25px;
+    color: crimson;
+    position: absolute;
+    top: 130px;
+    right: 90px;
+}
+
+#a1 {
+    width: 1200px;
+    height: 180px;
+    margin: 0 auto;
+    margin-top: 25px;
+    border-radius: 25px;
+    background-color:pink;
+}
+
+#a1 .a1_1 {
+    float: left;
+    width: 580px;
+    height: 150px;
+    margin-left: 5px;   
+    margin-top: 15px;        
+}
+
+#a1 .a1_1>img {
+    float: left;
+}
+
+#a1 .a1_1 ul li {
+    float: left;
+    padding-left: 15px;    
+}
+
+#a1 .a1_1 ul li a img {
+    border-radius: 120px;
+    transition: all 1s;    
+}
+
+#a1 .a1_1 ul li:hover a img {   
+    transform: scale(1.1,1.1);
+    box-shadow: 3px 3px 5px rgb(109, 109, 109);    
+}
+
+#a1 .a1_2 {
+    float: left;
+    width: 580px;
+    height: 150px;
+    margin-left: 5px;  
+    margin-top: 15px;           
+}
+
+#a1 .a1_2 ul li {
+    float: right;
+    padding-left: 15px;    
+}
+
+@keyframes sss {
+    0%{  
+        transform: translateX(-10px);
+    }
+    100% { 
+        transform: translateX(10px);
+    }
+}
+
+#a1 .a1_2 ul li:hover a img {
+    animation: sss 0.2s ease-in infinite alternate;
+} 
+
+
+#a1 .a1_2 img {
+    float: left;
+}
+
+#a2 video {
+    clear: both;
+    padding-left: 5px;
+    float: left;
+    margin-top: 110px;
+}
+
+#a2 .text {
+    margin-bottom: 40px;
+    padding-top: 50px;
+    width: 720px;
+    height: 400px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 40px;
+    line-height: 47px;
+    border-radius: 25px;   
+    background-color:palevioletred;  
+}
+
+#a2 .text h2 {
+    padding-left: 20px;
+    color: #fff;
+    font-size: 40px;
+    margin-left: 20px;
+    font-family: 'Cute Font', cursive;
+}
+
+#a2 .text p {
+    color: cornsilk;
+    margin-left: 40px;
+    font-size: 20px;
+    font-family: 'Sunflower', sans-serif;
+}
+
+#a3 {
+    clear: both;
+    width: 1200px;
+    height: 500px;
+    border-radius: 25px;    
+    background-image: url("../img/yogurt.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;     
+}
+
+#a3 .a3_1 {
+    margin-left: 720px;
+    float: left;
+    padding-top: 70px;
+    padding-left: 10px;
+}
+
+#a3 .a3_1 p {
+    font-family: 'Sunflower', sans-serif;
+    font-size: 60px;
+    color: darksalmon;
+    letter-spacing: 10px;
+}
+
+#a3 .a3_1 span {
+    font-family: 'Sunflower', sans-serif;
+    font-size: 60px;
+    color: crimson;
+}
+
+
+hr {
+    margin-top: 80px;
+    border-top: 1px solid palevioletred;
+}
+
+footer {
+    padding-top: 100px; 
+    padding-left: 100px;   
+}
+
+#footer-sns {
+    width: 200px;
+    height: 250px;
+    float: left;       
+    margin-left: 20px;
+    position: relative;  
+}
+
+#footer-sns>.sns_1 li img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#footer-sns>ul.sns_1 li:hover img:last-child {
+    opacity: 0;
+}
+
+#footer-sns>.sns_2 li img {
+    position: absolute;
+    top: 45px;
+    left: 0;
+}
+
+#footer-sns>ul.sns_2 li:hover img:last-child {
+    opacity: 0;
+}
+
+#footer-sns>.sns_3 li img {
+    position: absolute;
+    top: 85px;
+    left: 0;
+}
+
+#footer-sns>ul.sns_3 li:hover img:last-child {
+    opacity: 0;
+}
+
+#footer-sns>.sns_4 li img {
+    position: absolute;
+    top: 125px;
+    left: 0;
+}
+
+#footer-sns>ul.sns_4 li:hover img:last-child {
+    opacity: 0;
+}
+
+#footer-net img {
+    padding-right: 20px;
+}
+
+#footer-net {
+    width: 800px;
+    float: left; 
+    padding-bottom: 30px; 
+    padding-left: 40px;  
+}
+
+#footer-net img, #footer-net p {
+    float: left;
+    padding-right: 30px;
+    font-size: 20px;
+    color: #333;
+}
+
+#footer-text {
+    padding-left: 40px; 
+    width: 800px;
+    float: left;    
+}
+
+#footer-text ul li {
+    float: left;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+#footer-text ul li a {
+    color: #666;
+    font-size: 15px;
+}
+
+#footer-add {
+    float: left;
+}
+
+#footer-add p {
+    padding-left: 40px; 
+    color: #333;
+    font-size: 15px;
+}
+
+
+
+

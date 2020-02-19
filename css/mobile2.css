@@ -544,6 +544,18 @@
         line-height: 25px; */
         display: none;
     }
+
+    .inner_search {
+        display: none;
+    }
+
+    #but {
+        display: none;
+    }
+
+    #s5 form {
+        display: none;
+    }
     
     #but button:hover {
         background: #795cfc;

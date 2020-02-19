@@ -8,10 +8,13 @@
     <link href="https://fonts.googleapis.com/css?family=Dosis&display=swap" rel="stylesheet">    
     <link href="https://fonts.googleapis.com/css?family=Sunflower:300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Great+Vibes|Permanent+Marker&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/portfolio.css">    
+    <link rel="stylesheet" href="css/portfolio.css">  
+    <link rel="stylesheet" href="css/mobile.css">  
+    <link rel="stylesheet" href="css/mobile2.css">
     <script src="js/jquery-3.4.1.min.js"></script>  
     <script src="js/jquery-migrate-1.4.1.min.js"></script>
     <script src="js/portfolio.js"></script>    
+    <script src="js/mobile.js"></script>
     <script src="https://kit.fontawesome.com/87be54fb20.js" crossorigin="anonymous"></script>     
 </head>
 <body>
@@ -42,8 +45,9 @@
     <div class="up"><i class="fas fa-chevron-circle-up"></i></div>
     <section>
         <div id="contents">            
-            <div id="section1">                
+            <div id="section1">                               
                 <p class="titline">ABOUT ME</p>
+                <div id="sec1_box">
                 <h1>It's Me</h1>    
                 <div id="carouselwrap">
                     <p id="carouselprev"><img src="img/btn_prev.gif" alt="#"></p>
@@ -84,23 +88,23 @@
                         <h6><span>1지망</span>신입 / 웹퍼블리셔 / 전국구</h6>
                         <h6><span>2지망</span>경력 / CAD / 3D ( iNVENTOR ) / 전국구</h6>
                         <ul>
-                            <li><i class="fas fa-mobile-alt"></i> &nbsp;&nbsp;010-9224-4357&nbsp;&nbsp;&nbsp;</li>
+                            <li><i class="fas fa-mobile-alt"></i> &nbsp;&nbsp;010-9224-4357&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
                             <li><i class="fas fa-envelope-open-text"></i> &nbsp;&nbsp;ajdidlaak310@naver.com</li>
                         </ul>
                     </div>
                 </div> 
-                              
+            </div>         
             </div>
             <div id="section2"><p class="titline">SKILL</p>
                 <div id="skill">
-                    <ul>
+                    <ul class="skill_1">
                         <li><a href="#"><img src="img/skill1.png" alt="html"></a>
                             <div class="caption">                               
                                 <img src="img/skill1_1.png" alt="1">                            
                             </div>
                             <p>웹표준 & 접근성 준수<br>의미있는 Make up 가능</p>
                         </li>                       
-                        <li><a href="#"><img src="img/skill2.png" alt="css"></a>
+                        <li><a href="#"><img src="img/skill2.png"  alt="css"></a>
                             <div class="caption">
                                 <img src="img/skill2_1.png" alt="2">                            
                             </div>
@@ -115,31 +119,31 @@
                         </li>                       
                     </ul>
                     <ul class="skill_2">
-                        <li><a href="#"><img src="img/skill4.png" alt="cad"></a>
+                        <li><a href="#"><img src="img/skill4.png"  alt="cad"></a>
                             <div class="caption">
-                                <img src="img/skill4_1.png" alt="4">                            
+                                <img src="img/skill4_1.png"  alt="4">                            
                             </div>
                             <p>2D도면이해 및 설계<br>조립, 판금, 절곡, 지그</p>  
                         </li>                                            
                         <li><a href="#"><img src="img/skill5.png" alt="iNVENTOR"></a>
                             <div class="caption">
-                                <img src="img/skill5_1.png" alt="5">                            
+                                <img src="img/skill5_1.png"  alt="5">                            
                             </div>
                             <p>2D/3D 다양한 부품 구현<br>조립동영상 데이터관리</p>
                         </li>                        
                     </ul>
-                    <ul>
-                        <li><a href="#"><img src="img/skill6.png" alt="photo"></a>
+                    <ul class="skill_3">
+                        <li><a href="#"><img src="img/skill6.png"   alt="photo"></a>
                             <div class="caption">
                                 <img src="img/skill6_1.png" alt="6">                            
                             </div>                           
                         </li>                        
-                        <li><a href="#"><img src="img/skill7.png" alt="illust"></a>
+                        <li><a href="#"><img src="img/skill7.png"   alt="illust"></a>
                             <div class="caption">
                                 <img src="img/skill7_1.png" alt="7">                            
                             </div>
                         </li>                        
-                        <li><a href="#"><img src="img/skill8.png" alt="oa"></a>
+                        <li><a href="#"><img src="img/skill8.png"  alt="oa"></a>
                             <div class="caption">
                                 <img src="img/skill8_1.png" alt="8">                            
                             </div>
@@ -164,6 +168,7 @@
                     </ul>                     
                 </div>
                 <div class="s3_2">
+                    <div class="s3">
                     <div class="s3_2_1">
                         <img src="img/notepad.jpg" alt="노트" width="300" height="300"> 
                         <div id="img">
@@ -250,6 +255,7 @@
                         </div>
                     </div>                    
                 </div>
+            </div>
             </div>
             <div id="section4"><p class="titline">CONTACT</p>
                 <section class="contact-section" id="contact">

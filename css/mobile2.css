@@ -478,11 +478,6 @@
         height: 300px;
     }    
 
-    #section5 #s5 {
-        width: 300px;
-        height: 300px;
-    }
-
     #sns {  
         float: right;    
     }
@@ -506,18 +501,15 @@
             transform: translateX(10px);
         }
     }
-
-    #section5 {
-       
-    }
+   
     
     #section5 #sns ul li a i:hover {
         animation: sss 0.2s ease-in infinite alternate;
     } 
     
     #s5 {
-        width: 1000px;
-        height: 630px;
+        width: 300px;
+        height: 500px;
         margin-left: 0px;    
     }
     

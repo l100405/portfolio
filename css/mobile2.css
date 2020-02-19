@@ -14,6 +14,7 @@
     }
 
     #section1 {
+        width: 100%;
         background: rgb(250, 83, 83);        
     }
 
@@ -67,9 +68,9 @@
     }
     
     #profile {
-        margin-left: 200px;
+        margin-left: 190px;
         padding-top: 15px;
-        width: 400px;    
+        width: 250px;          
     }
     
     #profile ul {
@@ -86,7 +87,7 @@
     }
     
     #profile ul:first-child li {
-        border-right: 1px solid #ccc;
+        border-right: none;
         padding: 0px;
     }
     
@@ -137,7 +138,7 @@
 
     #skill ul {
         clear: both;
-        width: 460px;      
+        width: 300px;      
         margin: 0 auto;
         margin-top: 45px;       
     }
@@ -201,7 +202,7 @@
     }
 
     #skill .skill_2 li:first-child {
-        margin-left: 10px;
+        margin-left: 5px;
     }
 
     #skill .skill_3 li {
@@ -385,12 +386,13 @@
 
     /* section4 영역 */
 
+
     #section4 {
         background: violet;
     }
 
     .contact-section>.inner {
-        width: 600px;
+        width: 300px;
         height: 500px;
         margin: 0 auto;
         padding-left: 0px;
@@ -412,11 +414,11 @@
     }
     
     .contact-form-wrapper {
-        width: 320px;
+        width: 300px;
         padding: 0px;
         position: static;
         float: left;
-        margin-left: 50px;
+        margin-left: 10px;
         margin-top: 40px;
         /* left: 50%;         */
     }
@@ -472,7 +474,14 @@
 
     #section5 {
         background: rgb(8, 190, 190);
+        width: 320px;
+        height: 300px;
     }    
+
+    #section5 #s5 {
+        width: 300px;
+        height: 300px;
+    }
 
     #sns {  
         float: right;    
@@ -496,6 +505,10 @@
         100% { 
             transform: translateX(10px);
         }
+    }
+
+    #section5 {
+       
     }
     
     #section5 #sns ul li a i:hover {
@@ -628,7 +641,7 @@
         display: block;
         float: right;
         margin-top: 10px;
-        margin-right: 920px;    
+        margin-right: 230px;    
     }
     
     .pagination {
@@ -638,7 +651,7 @@
     }
     
     .pagination:first-child {
-        margin-left: 10%;
+        margin-left: 45%;
     }
     
     .pagination li {

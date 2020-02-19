@@ -1,0 +1,671 @@
+@media all and (min-width:500px) and (max-width:700px) {
+    
+    #contents .titline {
+        margin-left: 75%;
+        padding-top: 10px;
+        padding-bottom: 0px;
+        width: 150px;
+        border-bottom: 1px solid white;
+        text-align: right;
+        font-size: 20px;
+        font-family: 'Dosis', sans-serif;
+        color: white;
+    }
+
+    #section1 {
+        background: rgb(250, 83, 83);        
+    }
+
+    #sec1_box {
+        width:  460px;
+        margin: 0 auto;
+    }
+    
+    #section1 h1 {
+        font-size: 35px;
+        position: absolute;
+        left: 60px;
+        top: 70px;
+        color: rgba(134, 4, 4, 0.7);
+    }
+    
+    #carouselwrap {
+        width: 450px;
+        height: 135px;
+        margin-top: 90px;
+        margin-left: 0px;    
+        background-image: url("../img/background.gif");
+        padding: 5px;
+        position: relative; 
+        background-size: 460px 145px;       
+        z-index: 500;       
+    }
+    
+    #carouselprev {
+        position: absolute;
+        top: 65px;
+        left: -8px;
+        cursor: pointer;          
+    }
+    
+    #carouselnext {
+        position: absolute;
+        top: 65px;
+        left: 448px;
+        cursor: pointer;          
+    }
+    
+    #carousel {
+        width: 100%;
+        height: 100%;
+        overflow: hidden; 
+    }
+    
+    #carouselinner ul.column {
+        width: 450px;
+        height: 105px;
+        padding: 15px 0px 15px 5px;
+        float: left;
+    }
+    
+    #carouselinner ul li {
+        float: left;
+        margin-right: 5px;
+    }
+    
+    #s2 {
+        text-align: center;    
+        margin-left: 0px;
+        margin-top: 30px;
+        border: 3px solid wheat;
+        width: 450px;
+        height: 300px;
+        position: relative;
+    }
+    
+    #s2>p {
+        position: absolute;  
+        font-size: 25px;
+        display: block;
+        width: 100%;
+        font-family: 'Nanum Brush Script', cursive;
+        text-align: right;
+        color: rgba(255,255,255,0.7);
+        background-color: rgba(0, 0, 0, 0.1);
+        word-spacing: 50px;    
+    }
+    
+    #about {       
+        margin-top: 0px;
+        margin-left: -120px;
+        float: none;             
+        position: relative;     
+        z-index: 20;   
+    }
+    
+    #about img {
+        display: none;
+    }
+    
+    #profile {
+        margin-left: 200px;
+        padding-top: 15px;
+        width: 400px;    
+    }
+    
+    #profile ul {
+        padding-top: 10px;
+    }
+    
+    #about #profile {
+        position: absolute;      
+        top: 0;
+        left: 0;
+        font-size: 20px;   
+    }
+    
+    #profile ul:first-child li {
+        border-right: 1px solid #ccc;
+        padding: 0 25px 0 25px;
+    }
+    
+    #profile ul:first-child li:last-child {
+        border: none;
+    } 
+    
+    #about #profile ul li {
+        float: left;   
+    }
+    
+    #about #profile h5 {
+        clear: both;
+        text-align: left;
+        padding-left: 25px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    #about #profile h6 {
+        text-align: left;
+        padding-left: 15px;
+        margin-top: 2px;
+    }
+    
+    #about #profile ul li a {
+        color: brown;
+    }
+    
+    #profile ul:last-child li {
+        font-size: 16px;
+        color:yellow;
+        margin-left: -30px;
+    }
+
+    /* section2 */
+
+    #section2 {
+        background: rgb(6, 230, 125);
+    }
+
+    #skill ul {
+        clear: both;
+        width: 460px;      
+        margin: 0 auto;
+        margin-top: 45px;       
+    }
+    
+    #skill ul li {        
+        float: left;   
+        /* margin: 1px 10px;  */
+        margin-left: 10px;
+        margin-right: 0;
+        text-align: center; 
+        position: relative;
+        overflow: hidden; 
+        width: 142px;
+        height: 230px;         
+    }
+    
+    #skill .skill_2 {
+        margin-left: -20px;
+    }
+
+    #skill .skill_2 {
+        margin: 0 auto;    
+    }
+
+    #skill .skill_2 li:first-child {
+        margin-left: 80px;
+    }
+
+    #skill .skill_3 li {
+        height: 150px;        
+    }
+    
+    #skill {
+        list-style: none;
+        margin: 0;
+        padding: 0;        
+    } 
+
+    #skill ul li a img {
+        width: 100%;
+    }
+    
+    #skill .caption {
+        width: 142px;
+        height: 230px; 
+        position: absolute;
+        top: 120px;
+        left: 0px;
+        opacity: 0;    
+        transition: all 0.7s ease-in-out;
+    }
+
+    #skill .caption img {
+        width: 100%;
+    }
+    
+    #skill li:hover .caption {
+        opacity: 1; 
+        transform: translateY(-120px);
+    }
+    
+    #skill p {
+        font-size: 10.5px;
+        color: navy;   
+        margin-top: 15px; 
+    }     
+    
+    #section2 span {
+        color: navy;
+        clear: both;
+        position: static;
+        /* top: -100px; */
+        /* left: 0px; */
+        /* margin-top: -250px; */
+        text-align: center;    
+        font-size: 10.5px;
+        display: block;
+    } 
+    
+
+
+    /* section3 영역 */
+
+
+    #section3 {
+        position: relative;
+        background: rgb(170, 52, 253);
+    }
+    
+    .s3_1 {        
+        display: none;
+    } 
+    
+    .s3_2 {
+        width: 610px;
+        margin: 0 auto;
+    }
+    
+    .s3_2_1 {
+        float: left;
+        position: relative;       
+        margin-top: 70px;
+        margin-right: 10px;
+    }
+
+    .s3_2_1 img {
+        position: static;        
+        /* left: 550px;
+        top: 50px; */
+        border-radius: 5px;
+    }
+    
+    .s3_2_1>img {
+        border-radius: 20px;
+    }
+    
+    .s3_2_1 .text1 {
+        position: absolute;
+        top: 80px;
+        left: 10px;  
+        line-height: 21px;  
+    }
+
+    .s3_2_1 #img {
+        position: absolute;
+        top: 0;
+        left: 0px;
+    } 
+     
+    .s3_2_4 {
+        display: none;   
+    }   
+     
+    .s3_2_2 {       
+        float: left;
+        position: relative;
+        margin-top: 70px;
+     }
+
+    .s3_2_2 img {
+       position: static;
+       /* left: 900px;
+       top: 50px; */
+       border-radius: 5px;
+    }
+    
+    .s3_2_2>img {
+        border-radius: 20px;
+    }
+    
+    .s3_2_2 .text2 {
+        position: absolute;
+        top: 80px;
+        left: 10px;  
+        line-height: 21px;  
+    }
+    
+    .s3_2_2 #img {
+        position: absolute;
+        top: 0;
+        left: 0px;
+    }   
+
+    .s3_2_3 {
+        float: left;
+        margin-top: 30px;
+    }
+
+    .s3_2_3 img {
+        position: static;
+        /* left: 300px;
+        top: 400px; */
+        border-radius: 5px;
+    }
+    
+    .s3_2_3>img {
+        border-radius: 20px;
+    }
+    
+    .s3_2_3 .text3 {
+        position: absolute;
+        top: 485px;
+        left: 10px;  
+        line-height: 21px;  
+    }
+
+    .s3_2_3 #img {
+        position: absolute;
+        top: 405px;
+        left: 0px;
+    } 
+
+    .s3_2_5 {
+        float: left;
+        margin-top: 30px;
+        margin-left: 10px;
+    }
+
+    .s3_2_5 img {
+        position: static;
+        /* left: 300px;
+        top: 400px; */
+        border-radius: 5px;
+    }
+    
+    .s3_2_5>img {
+        border-radius: 20px;
+    }
+    
+    .s3_2_5 .text5 {
+        position: absolute;
+        top: 485px;
+        left: 320px;  
+        line-height: 21px;  
+    }
+
+    .s3_2_5 #img {
+        position: absolute;
+        top: 405px;
+        left: 310px;
+    }
+
+
+
+    /* section4 영역 */
+
+    #section4 {
+        background: violet;
+    }
+
+    .contact-section>.inner {
+        width: 600px;
+        height: 500px;
+        margin: 0 auto;
+        padding-left: 0px;
+        margin-top: 100px;
+        /* position: relative;  */       
+    }
+
+    .contact-form form {
+        float: none;
+    }
+
+    .contact-section h2 {
+        font-size: 25px;
+        font-weight: normal;
+        text-transform: uppercase;
+        margin-left: 0px;
+        color: rgb(245, 42, 6);
+        margin-bottom: 50px;
+    }
+    
+    .contact-form-wrapper {
+        width: 300px;
+        padding: 0px;
+        position: static;
+        float: left;
+        /* left: 50%; */        
+    }
+    
+    .contact-form .form-item {
+        margin-top: 10px;
+    }
+    
+    .contact-form label {
+        display: block;
+        font-size: 13px;
+        text-transform: uppercase;    
+    }
+    
+    .contact-form input[type="text"], .contact-form input[type="email"], .contact-form input[type="TEL"] {
+        width: 200px;
+        border: 0;
+    }
+    
+    .contact-form textarea {
+        width: 270px;
+        height: 180px;
+        border: 0;
+        color: black;
+    }
+    
+    .contact-form input[type="submit"] {
+        border-width: 0;
+        background-color: rgb(248, 71, 219);
+        color: #ccc;
+        font-size: 14px;
+        line-height: 1.5px;
+        padding: 10px 0;
+        margin-top: 10px;
+        width: 120px;
+        text-align: center;
+        text-transform: uppercase;    
+    }
+    
+    .contact-map {
+        position: static;
+        /* left: 240px;
+        top: 0; */
+        /* bottom: 0;
+        right: 50%;   */        
+        width: 200px;
+        height: 150px;
+        float: left;
+    }
+    
+    .contact-map iframe {
+        width: 300px;
+        height: 230px;
+        margin-top: 100px;
+        margin-left: 0px;        
+    }    
+
+
+    /* section5 영역 */
+
+
+    #section5 {
+        background: rgb(8, 190, 190);
+    }    
+
+    #sns {  
+        float: right;    
+    }
+    
+    #sns ul li {
+        float: left;   
+    }
+    
+    #sns ul li a {
+        font-size: 20px;
+        color: black; 
+        padding-right: 20px;
+        padding-left: 10px;   
+    }
+    
+    @keyframes sss {
+        0%{  
+            transform: translateX(-10px);
+        }
+        100% { 
+            transform: translateX(10px);
+        }
+    }
+    
+    #section5 #sns ul li a i:hover {
+        animation: sss 0.2s ease-in infinite alternate;
+    } 
+    
+    #s5 {
+        width: 1000px;
+        height: 630px;
+        margin-left: 0px;    
+    }
+    
+    #s5 h1 {
+        margin-top: 120px;
+        margin-left: 50px;
+        padding-bottom: 10px;
+        font-size: 25px;
+        width: 270px;    
+        border-bottom: 1px solid white;
+    }
+    
+    #s5 form {
+        margin-top: -15px;
+        float: right;
+        margin-right: 365px;
+    }
+    
+    #s5 form div {
+        float: left;
+    }
+    
+    #search select {
+        height: 23px;
+    }
+    
+    .inner_search input {
+        height: 20px;
+    }
+    
+    #but button {
+        width: 80px;
+        height: 25px;
+        border: none;
+        color: #fff;    
+        line-height: 25px;
+    }
+    
+    #but button:hover {
+        background: #795cfc;
+    }
+    
+    thead tr th {
+        padding: 5px;
+        color: #fff;
+        font-size: 15px;
+        background: #83cccb;
+    }
+    
+    #top thead tr {
+        margin-left: 30px;
+    }
+    
+    tbody tr {
+        height: 50px;       
+    }
+    
+    .tr {
+        background: #e2f8e9;
+    }
+    
+    td  {
+        color: black;
+    }
+    
+    td a {
+        color: black;
+    }
+    
+    td a:hover {
+        color: #8f23e7;
+    }
+    
+    #search,.inner_search {
+        margin-right: 5px;
+    }
+    
+    #search_type {
+        height: 25px;
+    }
+    
+    .inner_search input {
+        height: 18px;
+    }
+    
+    #but .bnt_search {
+        width: 60px;
+        height: 23px;
+        background: #666;
+        border: none;
+    }
+    
+    .table {
+        margin-top: 40px;
+        margin-left: 50px;
+        width: 590px;
+        font-size: 15px;
+        text-align: center; 
+    }
+    
+    .btn {    
+        border-radius: 5px;
+        width: 60px;
+        height: 30px;
+        text-align: center;    
+        line-height: 30px;
+        display: block;
+        float: right;
+        margin-top: 10px;
+        margin-right: 890px;    
+    }
+    
+    .pagination {
+        clear: both;
+        width: 100px;
+        margin: 0 auto;    
+    }
+    
+    .pagination:first-child {
+        margin-left: 30%;
+    }
+    
+    .pagination li {
+        float: left;
+        margin-top: 50px;
+        text-align: center;    
+    }
+    
+    .pagination li a {
+        display: block;
+        width: 20px;   
+    }
+    
+    .pagination a:hover,
+    .btn:hover {
+        background: #54f5da;
+        color: rgb(54, 19, 19);
+        font-weight: bold;
+    }
+
+}
+
+
+
+
+
+

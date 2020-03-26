@@ -1,0 +1,606 @@
+
+
+/* 초기화 작업 */
+* {
+    margin: 0;
+    padding: 0;    
+    font-family: "맑은 고딕";
+    list-style: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+.warp {
+    width: 1024px;
+    margin: 0 auto;
+}
+
+a {
+    color: #333;
+}
+
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: block;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+/* 
+page header
+*/
+.page-header {
+    width: 100%;
+    min-width: 960px;
+    height: 120px;
+    background-color: white;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    z-index: 40;    
+}
+.page-header .site-logo2 {
+    display: none;
+}
+
+.page-header.sticky {
+    position: fixed;
+    top: 0;
+    height: 80px;
+    z-index: 100;
+} /* 메뉴 상단 고정 css 처리 */
+
+.page-header.sticky .site-logo {
+    display: none;
+}
+.page-header.sticky .site-logo2 {
+    display: block;
+    font-size: 30px;
+    text-align: center;
+}
+
+.page-header.sticky .site-logo2 span {
+    font-size: 20px;
+    color: #333;
+    font-weight: normal;
+}
+
+.page-header.sticky .primary-nav {
+    display: none;    
+}
+
+.page-header.sticky .nav {
+    margin-top: 5px;
+}
+
+.page-header>.inner {
+    width: 1024px;
+    margin: 0 auto;    
+}
+
+/* logo */
+.site-logo {
+    float: left;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+/* nav css */
+.primary-nav {
+    float: right;
+    line-height: 35px;
+}
+
+.primary-nav ul {
+    margin-top: 20px;
+}
+
+.primary-nav>ul {
+    position: relative;
+}
+
+.primary-nav li {
+    float: left;
+}
+
+.primary-nav a {
+    /* display: block; */
+    padding: 0 10px;
+    color: #333;
+    font-size: 13px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.primary-nav ul li .nav_sub {
+    display: none;
+}
+
+.primary-nav ul li:hover .nav_sub {
+    display: block;
+    position: absolute;
+    top: 10px;
+    z-index: 999;
+} 
+
+.primary-nav ul li .nav_sub li {
+    float: none;
+}
+
+.co:hover{
+    color: violet;
+}
+
+.primary-nav select {
+    border: 0;
+
+}
+
+.nav {
+    margin-top: 15px;
+    float: right;
+    line-height: 35px;      
+}
+
+.nav li {
+    float: left;
+}
+
+.nav>ul>li>a {
+    display: block;
+    padding: 0 9px;
+    color: #333;
+    font-size: 13px;    
+    border-bottom: 1px solid transparent;
+}
+
+.nav>ul>li>a:hover {    
+   border-color: #333;   
+}
+
+.nav_sub {
+    width: 100px;
+    text-align: center;
+    font-size: 12px;
+    color: #333;
+    background-color: white;
+    border: 1px solid #ccc;
+    line-height: 25px;  
+}
+
+/* search 검색창 */
+
+.search {
+    float:left;      
+}
+
+.search_form {
+    float:left;
+}
+
+.search_form input {
+    width:80px;
+    height:16px;
+    border:0;
+    background-color:#f2f0f0;
+    border-bottom:solid 1px #cccccc;
+    margin-left:5px;
+}
+
+.search_button {
+    float:left;
+    margin:3px 0 0 3px;
+}
+
+/* cart */
+.cart {
+    width: 35px;
+    height: 35px;
+    background: url("../img/main/icon_cart.png") no-repeat;
+    background-size: cover;
+    margin-left: 10px;
+}
+
+.nav {
+    position: relative;
+}
+
+.nav_bom_sub {
+    width: 120px;   
+    padding-bottom: 10px;
+    opacity: 0.8;
+    font-size: 12px;
+    color: #333;
+    background-color: white;
+    border: 1px solid #ccc;
+    line-height: 25px; 
+    position: absolute; 
+    /* top: 35px; */
+    padding-left: 20px;
+    padding-top: 10px;
+    line-height: 30px;
+    display: none;
+}
+
+.nav_bom_sub li {
+    width: 100%;    
+}
+
+.nav ul li:hover .nav_bom_sub {
+    display: block;
+}
+
+/*section 
+*/
+
+.right {
+    
+    width: 1024px;
+    margin: 0 auto;   
+    padding-top: 40px;
+    
+}
+
+section.right .summary h3 {
+    font-size: 20px;
+    padding-bottom: 8px;     
+    margin-top: 120px;    
+    float: right;
+}
+
+section.right .summary h3 span {
+    color:#80a727;
+}
+
+section.right .image {
+    width: 530px;
+    height: 600px;    
+    margin-top: 100px;
+    margin-left: 20px;   
+}
+
+section.right .summary1 {
+    float: left;
+    margin-top: 20px;
+}
+
+section.right .summary1 .buttons {
+    text-align: center;
+    margin-top: -35px;
+}
+
+section.right .summary2 {
+    width: 470px;
+    float: right;
+    margin-top: 50px;    
+}
+
+section.right .summary2 .item {
+    margin-top: 130px;
+    margin-right: 70px;
+    padding-bottom: 10px;
+    line-height: 28px;
+}
+
+section.right .new {    
+    line-height: normal;
+}
+
+section.right .summary2 .item li {
+    margin: 10px 0 0 0; 
+    float: right;
+}
+
+section.right .summary2 .col1 {
+    width: 100px;
+    float: left;
+}
+
+section.right .summary2 .col2 {
+    width: 200px;
+    float: left;
+}
+
+section.right .summary2 {
+    margin: 50px 0 0 0;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #cccccc;
+}
+
+section.right .summary2 li {
+    margin:5px 0; 
+}
+
+section.right .buttons {
+    clear: both;    
+    margin-left: 100px;
+    padding-top: 15px;    
+}
+
+section.right .summary2 .buttons li {
+    display:inline;
+}
+
+section.right .pic {
+    width: 300px;
+    height: 50px;
+    background-color: rgb(241, 210, 245);    
+    border-radius: 10px;
+    border: 1px solid rgba(241, 106, 223, 0.3);
+    text-align: center;
+    line-height: 50px;  
+    margin: 13px 0 13px 90px;
+}
+
+section.right .pic a {
+    color: rgb(117, 3, 117);
+    font-size: 15px;
+}
+
+section.right .pic a img {
+    vertical-align: middle;
+}
+
+
+/* 상품 설명 */
+.explanation {
+    clear: both;    
+}
+
+.infor {    
+    margin-top: 830px;
+    border-bottom: 1px solid #ccc;
+    height: 30px;    
+    min-width: 1024px;
+    
+}
+
+.infor ul {   
+   width: 640px;
+   margin: 0 auto;  
+} 
+
+.infor ul li {
+    
+    margin-left: 30px;
+    float: left;   
+}
+
+.infor ul li a {
+    color: #999;
+    font-size: 15px; 
+    display: block;
+    padding-bottom: 10px;
+    border-bottom: 2px solid transparent;
+}
+
+.infor ul li a:hover {   
+    color: brown;
+    border-bottom: 2px solid #0e1304;
+}
+
+.membership {
+    width: 1024px;
+    margin: 0 auto;
+    margin-top: 100px;
+}   
+
+
+/*디테일 상품소개*/
+.detail_imgs {
+    width: 1024px;
+    margin: 0 auto;   
+}
+
+.detail_txt {
+    width: 1024px;
+    margin: 0 auto;
+    text-align: center;   
+}
+
+.detail_txt h1 {
+    color: rgb(170, 34, 25);
+}
+
+.detail_txt p {
+    font-size: 13px;
+    color: #999;
+}
+
+.detail_txt span {
+    color: red;
+    font-size: 13px;    
+}
+
+.detail_txt h6 {
+    font-size: 15px;
+}
+
+/*디스크립션
+*/
+
+.detailed {
+    min-width: 1024px;
+}
+
+.detailed p {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.detailed .de_img {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.description {
+    margin: 0 auto;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 100px;
+    border-left: none;
+    border-right: none;
+    width: 700px;
+    height: 100px;    
+    text-align: center;
+}
+
+table td {
+    border-bottom: 1px solid rgb(192, 168, 126);
+    border-top: 1px solid rgb(192, 168, 126);
+    border-left: 1px solid #ccc;    
+}
+
+table tr td:first-child {
+border-left: none;
+}
+
+table tr:first-child td{
+    background-color: rgb(240, 240, 240);    
+}
+
+table tr:first-child td {
+    border-bottom: 1px solid #ccc;
+}
+
+table caption {
+    text-align: right;    
+}
+
+.list {
+    margin: 90px auto;  
+    width: 900px;
+    height: 90px;
+    line-height: 30px;
+    background-color: rgb(240, 240, 240);    border-radius: 20px;    
+}
+
+.list ul li {
+    margin-left: 50px;
+    font-size: 13px;
+    color: #333;
+}
+
+/* 유의 사항 */
+
+.required {
+    clear: both;
+    padding-top: 100px;
+    margin-left: 150px;
+    min-width: 1024px;
+}
+.required dl {
+    margin:20px 0 0 30px;
+}
+
+.required dt {
+    font-size:14px;
+    font-weight:bold;
+    margin-top:20px;
+}
+
+.required dd {
+    font-size:13px;
+    margin:5px 0 0 20px;
+}
+
+.required p {
+    width: 1024px;    
+    text-align: center;
+    color: #333;
+    font-size: 12px;
+    margin-bottom: 70px;
+}
+
+/*
+footer
+*/
+
+.page-footer {
+    min-width: 1024px;
+}
+
+.page-footer>.inner {
+    width: 960px;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 40px;
+}
+
+.copyright {
+    font-size: 12px;
+    padding: 6px 0;
+    float: right;
+    text-transform: uppercase;
+}
+
+.back-to-top {
+    background-color: rgb(240,240,240);
+    border-width: 0;
+    cursor: pointer;
+    display: block;
+    padding: 16px;
+    width: 100%;
+}
+
+.back-to-top .label {
+    display: block;
+    width: 35px;
+    height: 18px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.back-to-top .label img {
+    position: absolute;
+    left: -35px;
+}
+
+.inner_clearfix {
+    width: 100%px;
+    text-align: center;
+}
+
+.social-link ul {
+    margin-top: 20px;
+    margin-left: 450px;
+}
+
+.social-link li {
+    float: left;
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+.social-link li span {
+    color: rgb(156, 9, 9);
+    font-weight: bold;
+}
+    
+
+.social-link h5 {
+    clear: both;
+    font-weight: normal;
+    color: #999;
+    padding-top: 20px;
+}
+
+.social-link p {
+   font-size: 12px;
+   margin-top: 15px;
+   color: #999;
+}
+
+.copyright {
+    font-weight: bold;
+    margin-top: 30px;
+    color: #333;
+}
+

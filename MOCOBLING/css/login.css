@@ -1,0 +1,391 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* 페이지 기본 글꼴과 크기 설정 */
+body {
+    font-family: "맑은 고딕";
+    font-size: 14px;
+}
+
+img {
+    border: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+
+/*HARDER
+*/
+
+.clearfix:before, .clearfix:after {
+    content: " ";
+    display: block;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+
+/* 
+page header
+*/
+.page-header {
+    width: 100%;
+    min-width: 960px;
+    height: 120px;
+    background-color: white;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    z-index: 40;    
+}
+.page-header .site-logo2 {
+    display: none;
+}
+
+.page-header.sticky {
+    position: fixed;
+    top: 0;
+    height: 80px;
+    z-index: 100;
+} /* 메뉴 상단 고정 css 처리 */
+
+.page-header.sticky .site-logo {
+    display: none;
+}
+.page-header.sticky .site-logo2 {
+    display: block;
+    font-size: 30px;
+    text-align: center;
+}
+
+.page-header.sticky .site-logo2 span {
+    font-size: 20px;
+    color: #333;
+    font-weight: normal;
+}
+
+.page-header.sticky .primary-nav {
+    display: none;    
+}
+
+.page-header.sticky .nav {
+    margin-top: 5px;
+}
+
+.page-header>.inner {
+    width: 1024px;
+    margin: 0 auto;    
+}
+
+/* logo */
+.site-logo {
+    float: left;
+    margin-left: 40px;
+    margin-top: 30px;
+}
+
+/* nav css */
+.primary-nav {
+    float: right;
+    line-height: 35px;
+}
+
+.primary-nav ul {
+    margin-top: 20px;
+}
+
+.primary-nav>ul {
+    position: relative;
+}
+
+.primary-nav li {
+    float: left;
+}
+
+.primary-nav a {
+    /* display: block; */
+    padding: 0 10px;
+    color: #333;
+    font-size: 13px;
+    margin-bottom: 0;
+    text-transform: uppercase;
+}
+
+.primary-nav ul li .nav_sub {
+    display: none;
+}
+
+.primary-nav ul li:hover .nav_sub {
+    display: block;
+    position: absolute;
+    top: 10px;
+    z-index: 999;
+} 
+
+.primary-nav ul li .nav_sub li {
+    float: none;
+}
+
+.co:hover{
+    color: violet;
+}
+
+.primary-nav select {
+    border: 0;
+
+}
+
+.nav {
+    margin-top: 15px;
+    float: right;
+    line-height: 35px;      
+}
+
+.nav li {
+    float: left;
+}
+
+.nav>ul>li>a {
+    display: block;
+    padding: 0 9px;
+    color: #333;
+    font-size: 13px;    
+    border-bottom: 1px solid transparent;
+}
+
+.nav>ul>li>a:hover {    
+   border-color: #333;   
+}
+
+.nav_sub {
+    width: 100px;
+    text-align: center;
+    font-size: 12px;
+    color: #333;
+    background-color: white;
+    border: 1px solid #ccc;
+    line-height: 25px;  
+}
+
+/* search 검색창 */
+
+.search {
+    float:left;      
+}
+
+.search_form {
+    float:left;
+}
+
+.search_form input {
+    width:80px;
+    height:16px;
+    border:0;
+    background-color:#f2f0f0;
+    border-bottom:solid 1px #cccccc;
+    margin-left:5px;
+}
+
+.search_button {
+    float:left;
+    margin:3px 0 0 3px;
+}
+
+/* cart */
+.cart {
+    width: 35px;
+    height: 35px;
+    background: url("../img/main/icon_cart.png") no-repeat;
+    background-size: cover;
+    margin-left: 10px;
+}
+
+.nav {
+    position: relative;
+}
+
+.nav_bom_sub {
+    width: 120px;   
+    padding-bottom: 10px;
+    opacity: 0.8;
+    font-size: 12px;
+    color: #333;
+    background-color: white;
+    border: 1px solid #ccc;
+    line-height: 25px; 
+    position: absolute; 
+    /* top: 35px; */
+    padding-left: 20px;
+    padding-top: 10px;
+    line-height: 30px;
+    display: none;
+}
+
+.nav_bom_sub li {
+    width: 100%;    
+}
+
+.nav ul li:hover .nav_bom_sub {
+    display: block;
+}
+
+
+/*section
+*/
+
+.main_content {
+    padding-top: 130px;    
+    width: 1024px;
+    margin: 0 auto;    
+}
+
+.login_box {
+    width: 429px;
+    margin: 0 auto;
+    /* margin: 20px 0 20px 230px; */
+}
+
+.login_title {
+    margin: 50px 0 0 0;
+    padding-bottom: 5px;
+    border-bottom: 2px solid #ffbe1f;
+}
+
+.login_title span {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.login_form {
+    margin-top: 20px;
+}
+
+.login_form li {
+    margin-top: 10px;
+}
+
+.login_form input {
+    width: 100%;
+    height: 47px;
+    border: 1px solid #ccc;
+}
+
+.login_form .login_btn {
+    padding-top: 30px;
+    margin-bottom: 50px;
+}
+
+.login_btn .hg {
+    color: black;
+    font-size: 20px;    
+    width: 426px;
+    height: 56px;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgb(255, 190, 16);
+    line-height: 56px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.txt {
+    width: 100%;
+    text-align: center;
+    margin: 50px auto;
+}
+
+.img {
+    width: 506px;
+    margin: 0 auto;
+}
+
+/*FOOTER 
+*/
+/*
+footer
+*/
+
+.page-footer {
+    min-width: 1024px;
+}
+
+.copyright {
+    font-size: 12px;
+    padding: 6px 0;
+    float: right;
+    text-transform: uppercase;
+}
+
+.back-to-top {
+    background-color: rgb(240,240,240);
+    border-width: 0;
+    cursor: pointer;
+    display: block;
+    padding: 16px;
+    width: 100%;
+}
+
+.back-to-top .label {
+    display: block;
+    width: 35px;
+    height: 18px;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.back-to-top .label img {
+    position: absolute;
+    left: -35px;
+}
+
+.inner_clearfix {
+    width: 100%;
+    text-align: center;
+}
+
+.social-link ul {
+    margin-top: 20px;
+    margin-left: 450px;
+}
+
+.social-link li {
+    float: left;
+    margin-left: 10px;
+    font-size: 13px;
+}
+
+.social-link li span {
+    color: rgb(156, 9, 9);
+    font-weight: bold;
+}
+    
+
+.social-link h5 {
+    clear: both;
+    font-weight: normal;
+    color: #999;
+    padding-top: 20px;
+}
+
+.social-link p {
+   font-size: 12px;
+   margin-top: 15px;
+   color: #999;
+}
+
+.copyright {
+    font-weight: bold;
+    margin-top: 30px;
+    color: #333;
+}

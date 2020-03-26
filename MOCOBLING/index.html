@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>모코블링,당신의 옷. 평범함 속에 특별함이 되다.</title>
+    <link rel="stylesheet" href="css/main.css">    
+    <script src="js/jquery-3.4.1.min.js"></script>  
+    <script src="js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>   
+    <header class="page-header">
+        <div class="inner">
+            <h1 class="site-logo">
+                <a href="index.html"><img src="img/main/logo.png" alt="#" width="100" height="35"></a>
+            </h1>
+            <h1 class="site-logo2">
+                <a href="#">MOCO<span> BLING</span></a>
+            </h1>
+            <nav class="primary-nav">
+                <ul
+                    <li><a href="#">
+                        <select name="KR" id="">
+                            <option value="a">KR</option>
+                            <option value="a">CHN</option>
+                            <option value="a">ENG</option>
+                            <option value="a">JP</option>
+                            <option value="a">TW</option>
+                        </select>
+                    </a></li>
+                    <li><a class="co" href="login.html">로그인</a></li>
+                    <li><a class="co" href="#">회원가입</a></li>
+                    <li><a href="#">마이페이지<img src="img/main/arr_submenu.png" alt=""></a>
+                        <ul class="nav_sub">
+                            <li>주문조회</li>
+                            <li>위시리스트</li>
+                            <li>쿠폰</li>
+                            <li>게시판</li>
+                            <li>회원정보</li>
+                        </ul>
+                    </li> 
+                    <li>
+                        <div class="search">                             
+                            <div class="search_form"><input type="text"></div>
+                            <div class="search_button"><a href="#"><img src="img/main/top_search.png" width="20px"></a></div>                            
+                          </div>                        
+                    </li>                  
+                    <li class="cart"><a href="#">
+                        <span>0</span>
+                    </a></li>
+                </ul>
+            </nav>
+            <nav class="nav">
+                <ul>
+                    <li><a href="ditail.html">BEST 50</a></li>
+                    <li><a href="ditail.html">신상 5%</a></li>
+                    <li><a href="ditail.html">당일배송</a></li>
+                    <li><a href="ditail.html">브랜드<img src="img/main/arr_submenu.png" alt="#"></a>
+                        <ul class="nav_bom_sub">
+                            <li><a href="ditail.html">알럽<img src="img/main/cate_icon_ilovemoco01.png" alt="#">모코</a></li>                           
+                            <li><a href="ditail.html">모코<img src="img/main/cate_icon_mocodenim01.png" alt="#">데님</a></li>
+                            <li><a href="ditail.html">모코<img src="img/main/cate_icon_mocodaeng01.png" alt="#">댕댕</a></li>
+                            <li><a href="ditail.html">모코<img src="img/main/cate_icon_mocoisland01.png" alt="#">아일랜드</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#"><img src="img/main/cate_icon_herci.png" alt=""></a></li>
+                    <li><a href="#">시밀러룩<img src="img/main/arr_submenu.png" alt="#"></a>
+                        <ul class="nav_bom_sub">
+                            <li><a href="ditail.html">아우터</a></li>                           
+                            <li><a href="ditail.html">상의</a></li>
+                            <li><a href="ditail.html">블라우스</a></li>
+                            <li><a href="ditail.html">원피스</a></li>
+                            <li><a href="ditail.html">하의</a></li>
+                            <li><a href="ditail.html">비키니</a></li>
+                            <li><a href="ditail.html">커플아이템</a></li>
+                        </ul>        
+                    </li>
+                    <li><a href="#">아우터<img src="img/main/arr_submenu.png" alt="#"></a>
+                        <ul class="nav_bom_sub">
+                            <li><a href="ditail.html">코트</a></li>                           
+                            <li><a href="ditail.html">자켓</a></li>
+                            <li><a href="ditail.html">점퍼</a></li>
+                            <li><a href="ditail.html">가디건</a></li>
+                            <li><a href="ditail.html">무스탕</a></li>
+                            <li><a href="ditail.html">베스트</a></li>
+                            <li><a href="ditail.html">퍼</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">상의<img src="img/main/arr_submenu.png" alt="#"></a>
+                        <ul class="nav_bom_sub">
+                            <li><a href="ditail.html">티셔츠</a></li>                           
+                            <li><a href="ditail.html">후드&맨투맨</a></li>
+                            <li><a href="ditail.html">니트</a></li>
+                            <li><a href="ditail.html">나시</a></li>                            
+                        </ul>
+                    </li>
+                    <li><a href="ditail.html">블라우스</a></li>
+                    <li><a href="ditail.html">원피스</a></li>
+                    <li><a href="ditail.html">하의<img src="img/main/arr_submenu.png" alt="#"></a>
+                        <ul class="nav_bom_sub">
+                            <li><a href="ditail.html">데님</a></li>                           
+                            <li><a href="ditail.html">팬츠</a></li>
+                            <li><a href="ditail.html">숏팬츠</a></li>
+                            <li><a href="ditail.html">스커트</a></li> 
+                            <li><a href="ditail.html">레깅스</a></li>                            
+                        </ul>
+                    </li>
+                    <li><a href="#">신발&가방<img src="img/main/arr_submenu.png" alt="#"></a>
+                        <ul class="nav_bom_sub">
+                            <li><a href="ditail.html">신발</a></li>                           
+                            <li><a href="ditail.html">가방</a></li>                                                
+                        </ul>
+                    </li>
+                    <li><a href="#">악세사리<img src="img/main/arr_submenu.png" alt="#"></a>
+                        <ul class="nav_bom_sub">
+                            <li><a href="#">모자</a></li>                           
+                            <li><a href="#">헤어악세사리</a></li>
+                            <li><a href="#">선글라스</a></li>
+                            <li><a href="#">팔찌</a></li>
+                            <li><a href="#">반지</a></li>
+                            <li><a href="#">목걸이</a></li>
+                            <li><a href="#">발찌</a></li>
+                            <li><a href="#">귀걸이</a></li>
+                            <li><a href="#">시계</a></li>
+                            <li><a href="#">양말</a></li>
+                            <li><a href="#">벨트</a></li>
+                            <li><a href="#">머플러</a></li>
+                            <li><a href="#">그외ACC</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">세일</a></li>
+                    <li><a href="#">커뮤니티<img src="img/main/arr_submenu.png" alt="#"></a>
+                        <ul class="nav_bom_sub">
+                            <li><a href="#">모코TV</a></li>                           
+                            <li><a href="#">셀러브리티</a></li>
+                            <li><a href="#">출석체크</a></li>
+                            <li><a href="#">고객센터</a></li>
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">이벤트</a></li>
+                            <li><a href="#">상품후기</a></li>
+                            <li><a href="#">입사지원</a></li>
+                            <li><a href="#">제휴/협력문의</a></li>
+                            <li><a href="#">개인결제창</a></li>
+                            <li><a href="#">입고지연</a></li>                            
+                        </ul>
+                    </li>                    
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <article>
+    <header class="hero-header">
+        <div class="inner">
+            <div class="slideshow">
+                <img src="img/main/slide-1.jpg" alt="#" width="100%">
+                <img src="img/main/slide-2.jpg" alt="#" width="100%">
+                <img src="img/main/slide-3.jpg" alt="#" width="100%">
+                <img src="img/main/slide-4.jpg" alt="#" width="100%">
+                <img src="img/main/slide-5.jpg" alt="#" width="100%">
+            </div>
+        </div>
+    </header>
+    <div id="main">
+        <!-- section-topic -->
+            <section class="topics-section" id="#topics">              
+                <div class="inner">
+                    <div class="new_item">
+                        <h1>NEW ITEM </h1>
+                        <P>업데이트 순간부터 다음날 오전 10시까지 할인<br>금요일 업데이트 신상은 월요일 오전 10시까지 3일 연장할인</P>
+                    </div>    
+                    <ul class="topics-list clearfix">
+                        <li><a href="#">
+                            <span class="image-wrapper">
+                                <img src="img/main/pc_b_bnr_1.gif" alt="#" width="100%">
+                            </span>
+                            <b class="title">HELLO SPRING</b>
+                            <time class="date" datetime="2020-01-19">2020/01/19</time> 
+                         
+                            <p class="description">설레는 계절, 봄 <br>존예신상♥</p>
+                        </a></li>
+                        <li><a href="#">
+                            <span class="image-wrapper">
+                                <img src="img/main/pc_b_bnr_2.jpg" alt="#" width="100%" >
+                            </span>
+                            <b class="title"><img src="img/main/cate_icon_herci.png" alt=""></b>
+                            <time class="date" datetime="2019-07-15">2019/07/15</time>                             
+                            <p class="description">색조화장품 런칭!<br>그 이름은 모코블링 에르시!</p>
+                        </a></li>
+                        <li><a href="#">
+                            <span class="image-wrapper">
+                                <img src="img/main/pc_b_bnr_3.jpg" alt="#" width="100%">
+                            </span>
+                            <b class="title">CELEB'S PICK</b>
+                            <time class="date" datetime="2019-09-16">2019/09/16</time>                            
+                            <p class="description">InstaGram & YouTube<br>#press #magazine #celebrity</p>
+                        </a></li>
+                        <li><a href="#">
+                            <span class="image-wrapper">
+                                <img src="img/main/pc_b_bnr_4.jpg" alt="#" width="100%">
+                            </span>
+                            <b class="title">PANS</b>
+                            <time class="date" datetime="2019-09-16">2019/09/16</time>                            
+                            <p class="description">TOP20 <br>바지맛집 ------------★</p>
+                        </a></li>
+                    </ul>
+                </div>
+            </section>
+        <!-- section-topic END -->
+
+        <!-- section-banner -->
+            <section class="banner">
+                <div class="prev">
+                    <img src="img/main/slide_prev_bk.png" alt="#" width="20px">
+                </div>
+                <div class="canvas">
+                    <div class="img_bnr">
+                        <img src="img/main/pc_slides_bnr_1.jpg" alt="1" width="960px">
+                        <img src="img/main/pc_slides_bnr_2.jpg" alt="2" width="960px">
+                        <img src="img/main/pc_slides_bnr_3.jpg" alt="3" width="960px">
+                        <img src="img/main/pc_slides_bnr_4.jpg" alt="4" width="960px">
+                    </div>
+                </div>
+                <div class="next">
+                    <img src="img/main/slide_next_bk.png" alt="#" width="20px">
+                </div>
+            </section>
+        <!-- section-banner END -->        
+
+        <!-- section-work tabpanel -->
+            <section class="work-section" id="work">
+                <header class="section-header clearfix">
+                    <div class="inner">
+                        <h2>Pick up product</h2>
+                        <ul class="tabs-nav">
+                            <li><a href="#moco_made">moco made<img src="img/main/arr_submenu.png" alt="#"></a></li>
+                            <li><a href="#best1">best item_1<img src="img/main/arr_submenu.png" alt="#"></a></li>
+                            <li><a href="#best2">best item_2<img src="img/main/arr_submenu.png" alt="#"></a></li>
+                            <li><a href="#acc">acc<img src="img/main/arr_submenu.png" alt="#"></a></li>
+                            <li><a href="#jewelry">jewelry<img src="img/main/arr_submenu.png" alt="#"></a></li>
+                        </ul>
+                    </div>
+                </header>
+                <div class="section-body">
+                <section class="tabs-panel" id="moco_made"> 
+                    <div class="contents">
+                        <ul class="pick_up">
+                            <li><a href="#">
+                                <span class="pick_up_list">
+                                    <img src="img/main/moco_made_1.jpg" width="240" height="240" alt="#">
+                                </span>
+                                <p class="title">(i♥모코)매일여리모드-knt(여성미뿜뿜여리니트! 주문많아요♥)</p>
+                                <p><span class="mo">22,000</span></p>
+                            </a></li>
+                            <li><a href="#">
+                                <span class="pick_up_list">
+                                    <img src="img/main/moco_made_2.jpg" width="240" height="240" alt="#">
+                                </span>
+                                <p class="title">(MOCOSTREET)프로그래스아노락(2탄)-jp (주문1위상품!무조건구매각!)</p>
+                                <p><span class="mo">57,000</span></p>
+                            </a></li>
+                            <li><a href="#">
+                                <span class="pick_up_list">
+                                    <img src="img/main/moco_made_3.jpg" width="240" height="240" alt="#">
+                                </span>
+                                <p class="title">(i♥모코)클래식셔츠-bl(봄 컬러 가득! 주문많아요♥)</p>
+                                <p><span class="mo">31,000</span></p>
+                            </a></li>
+                            <li><a href="#">
+                                <span class="pick_up_list">
+                                    <img src="img/main/moco_made_4.jpg" width="240" height="240" alt="#">
+                                </span>
+                                <p class="title">(i♥모코)돌아온간zi2 (역시나 주문폭주!!♥)<br><br></p>
+                                <p><span class="mo">73,000</span></p>
+                            </a></li>
+                        </ul>                     
+                    </div>
+                </section>
+                <section class="tabs-panel" id="best1">                    
+                    <div class="contents">
+                        <ul class="pick_up_1">
+                            <li><a href="#">
+                                <span class="pick_up_list">
+                                    <img src="img/main/best1_1.gif" width="160" height="240" alt="#">
+                                </span>
+                                <p class="title">(i♥모코)매일여리모드-knt(여성미뿜뿜여리니트!♥)</p>
+                                <p><span class="mo">29,000</span></p>
+                            </a></li>
+                            <li><a href="#">
+                                <span class="pick_up_list">
+                                    <img src="img/main/best1_2.gif" width="160" height="240" alt="#">
+                                </span>
+                                <p class="title">(MOCOSTREET)프로그래스아노락(2탄)-jp (주문1위 상품!)</p>
+                                <p><span class="mo">37,000</span></p>
+                            </a></li>
+                            <li><a href="#">
+                                <span class="pick_up_list">
+                                    <img src="img/main/best1_3.gif" width="160" height="240" alt="#">
+                                </span>
+                                <p class="title">(i♥모코)클래식셔츠-bl(봄 컬러 가득! 주문많아요♥)</p>
+                                <p><span class="mo">51,000</span></p>
+                            </a></li>
+                            <li><a href="#">
+                                <span class="pick_up_list">
+                                    <img src="img/main/best1_4.gif" width="160" height="240" alt="#">
+                                </span>
+                                <p class="title">(i♥모코)돌아온간zi2 (역시나 주문폭주!!♥)<br></p>
+                                <p><span class="mo">13,000</span></p>
+                            </a></li>
+                            <li><a href="#">
+                                <span class="pick_up_list">
+                                    <img src="img/main/best1_5.gif" width="160" height="240" alt="#">
+                                </span>
+                                <p class="title">(i♥모코)돌아온간zi2 (역시나 주문폭주!!♥)<br></p>
+                                <p><span class="mo">23,000</span></p>
+                            </a></li>
+                        </ul>  
+                    </div>   
+                </section>
+                <section class="tabs-panel" id="best2">                   
+                    <div class="contents">
+                        <ul class="pick_up_1">
+                            <li><a href="#">
+                                <span class="pick_up_list">
+                                    <img src="img/main/best2_1.gif" width="160" height="240" alt="#">
+                                </span>
+                                <p class="title">(i♥모코)매일여리모드-knt(여성미뿜뿜여리니트!♥)</p>
+                                <p><span class="mo">25,000</span></p>
+                            </a></li>
+                            <li><a href="#">
+                                <span class="pick_up_list">
+                                    <img src="img/main/best2_2.gif" width="160" height="240" alt="#">
+                                </span>
+                                <p class="title">(MOCOSTREET)프로그래스아노락(2탄)-jp (주문1위 상품)</p>
+                                <p><span class="mo">37,000</span></p>
+                            </a></li>
+                            <li><a href="#">
+                                <span class="pick_up_list">
+                                    <img src="img/main/best2_3.gif" width="160" height="240" alt="#">
+                                </span>
+                                <p class="title">(i♥모코)클래식셔츠-bl(봄 컬러 가득! 주문많아요♥)</p>
+                                <p><span class="mo">11,000</span></p>
+                            </a></li>
+                            <li><a href="#">
+                                <span class="pick_up_list">
+                                    <img src="img/main/best2_4.gif" width="160" height="240" alt="#">
+                                </span>
+                                <p class="title">(i♥모코)돌아온간zi2 (역시나 주문폭주!!♥)<br></p>
+                                <p><span class="mo">33,000</span></p>
+                            </a></li>
+                            <li><a href="#">
+                                <span class="pick_up_list">
+                                    <img src="img/main/best2_5.gif" width="160" height="240" alt="#">
+                                </span>
+                                <p class="title">(i♥모코)돌아온간zi2 (역시나 주문폭주!!♥)<br></p>
+                                <p><span class="mo">47,000</span></p>
+                            </a></li>
+                        </ul>                       
+                    </div>
+                </section>
+                <section class="tabs-panel" id="acc">                 
+                    <div class="contents">
+                        <ul class="pick_up_2">
+                            <li><a href="#">
+                                <span class="pick_up_list">
+                                    <img src="img/main/acc_1.jpg" width="180" height="180" alt="#">
+                                </span>
+                                <p class="title">(i♥모코)매일여리모드-knt(여성미뿜뿜여리니트!♥)</p>
+                                <p><span class="mo">25,000</span></p>
+                            </a></li>
+                            <li><a href="#">
+                                <span class="pick_up_list">
+                                    <img src="img/main/acc_2.jpg" width="180" height="180" alt="#">
+                                </span>
+                                <p class="title">(MOCOSTREET)프로그래스아노락(2탄)-jp (주문1위 상품)</p>
+                                <p><span class="mo">37,000</span></p>
+                            </a></li>
+                            <li><a href="#">
+                                <span class="pick_up_list">
+                                    <img src="img/main/acc_3.jpg" width="180" height="180" alt="#">
+                                </span>
+                                <p class="title">(i♥모코)클래식셔츠-bl(봄 컬러 가득! 주문많아요♥)</p>
+                                <p><span class="mo">11,000</span></p>
+                            </a></li>
+                            <li><a href="#">
+                                <span class="pick_up_list">
+                                    <img src="img/main/acc_4.jpg" width="180" height="180" alt="#">
+                                </span>
+                                <p class="title">(i♥모코)돌아온간zi2 (역시나 주문폭주!!♥)<br></p>
+                                <p><span class="mo">33,000</span></p>
+                            </a></li>
+                            <li><a href="#">
+                                <span class="pick_up_list">
+                                    <img src="img/main/acc_5.jpg" width="180" height="180" alt="#">
+                                </span>
+                                <p class="title">(i♥모코)돌아온간zi2 (역시나 주문폭주!!♥)<br></p>
+                                <p><span class="mo">47,000</span></p>
+                            </a></li>
+                        </ul>                       
+                    </div>
+                </section>
+                <section class="tabs-panel" id="jewelry">                
+                    <div class="contents">
+                        <ul class="pick_up_2">
+                            <li><a href="#">
+                                <span class="pick_up_list">
+                                    <img src="img/main/jwr_1.jpg" width="180" height="180" alt="#">
+                                </span>
+                                <p class="title">하티펄-5ring.set</p>
+                                <p><span class="mo">10,000</span></p>
+                            </a></li>
+                            <li><a href="#">
+                                <span class="pick_up_list">
+                                    <img src="img/main/jwr_2.jpg" width="180" height="180" alt="#">
+                                </span>
+                                <p class="title">알라뷰-necklace</p>
+                                <p><span class="mo">17,000</span></p>
+                            </a></li>
+                            <li><a href="#">
+                                <span class="pick_up_list">
+                                    <img src="img/main/jwr_3.jpg" width="180" height="180" alt="#">
+                                </span>
+                                <p class="title">펄쓰리-3ring-set</p>
+                                <p><span class="mo">11,000</span></p>
+                            </a></li>
+                            <li><a href="#">
+                                <span class="pick_up_list">
+                                    <img src="img/main/jwr_4.jpg" width="180" height="180" alt="#">
+                                </span>
+                                <p class="title">에니포링-4ring-set<br></p>
+                                <p><span class="mo">13,000</span></p>
+                            </a></li>
+                            <li><a href="#">
+                                <span class="pick_up_list">
+                                    <img src="img/main/jwr_5.jpg" width="180" height="180" alt="#">
+                                </span>
+                                <p class="title">티어리-earring<br></p>
+                                <p><span class="mo">12,000</span></p>
+                            </a></li>
+                        </ul>                       
+                    </div>
+                </section>
+                </div>
+            </section>
+        <!-- section-work tabpanel END -->
+
+        <!-- section-media -->
+        <div class="video">
+            <iframe width="600" height="400" src="https://www.youtube.com/embed/eL2PlahhOpE" frameborder="0" 
+            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="video_list">
+            <h1>[HERCI]에르시 치크피니쉬<br> 볼터치 발색</h1>
+            <P>에르시 치크 피니쉬 볼터치 컬러 발색!<br>진저, 월넛, 살몬<br>에르시 더욱 매력있게 즐겨보세요</P>
+        </div>
+        <div class="btn">
+            <a href="#"><p>다른영상 더보기</p></a>           
+        </div>
+
+        <!-- section-midea END -->
+
+        <!-- bannar box -->
+        <section class="bnr_box">
+            <div class="box1">
+                <div class="txt">
+                    <a href="#"><img src="img/main/bnr_moco_box1_txt_01.png" alt="bnr_txt1"></a></div>
+                <div class="bg">  
+                    <img src="img/main/bnr_moco_box1_bg.jpg" alt="bnr_img1"></div>  
+            </div>
+            <div class="box1">
+                <div class="txt">
+                    <a href="#"><img src="img/main/bnr_moco_box2_txt_02.png" alt="bnr_txt2"></a></div>        
+                <div class="bg">
+                    <img src="img/main/bnr_moco_box2_bg.jpg" alt="bnr_img2"></a></div>             
+            </div>            
+        </section>        
+          <!-- bannar box -->
+    </article>
+
+        <!-- footer -->
+    <footer class="page-footer">
+            <button class="back-to-top">
+                <span class="label">
+                    <img src="img/main/sprites.png" alt="#">
+                </span>
+            </button>
+            <div class="inner_clearfix">
+                <aside class="social-link">
+                    <ul>
+                        <li><a href="#">쇼핑가이드</a></li>
+                        <li><a href="#">이용약관</a></li>
+                        <li><a href="#"><span>개인정보처리방침</span></a></li>
+                        <li><a href="#">사업자정보확인</a></li>
+                    </ul>
+                    <h5>회사명.(주)모코블링 CEO.권보람 사업자등록번호.317-81-30022 제휴/협력문의.co-work@mocobling.com 이메일.help@mocobling.com<br>
+                    (본사)충청북도 청주시 청원구 율량호 190번길 53, 3층 (지사)서울특별시 성동구 뚝섬로1길 63 영창디지털타워 5층 통신판매업신고번호. 제2012-충북청주-0503호</h5>
+                    <p>고객님은 안전거래를 위하여 현금으로 5만워이상 결제 시 저희 쇼핑몰에서 가입한 LG U+구매안전 서비를 이용할 수 있습니다.(서비스가입사실확인)</p>
+                </aside>
+                <small class="copyright">Copyright &copy; LEEHYUNJU</small> <!-- &copy; : 동그라미안에 "c" -->
+            </div>
+    </footer>
+  
+</body>
+</html>
